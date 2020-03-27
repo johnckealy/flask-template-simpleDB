@@ -1,6 +1,6 @@
 # Flask-api-Heroku
 
-#### A flask template for creating a heroku RESTful API.
+A flask template for creating a heroku RESTful API.
 
 This is a template for creating an API in flask, a reference starting point that has the ability to connect to a PostgreSQL database in both development and production.
 
@@ -50,9 +50,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> from app import db
 >>> db.create_all()
 >>> exit()
+```
 
-
-#####Setting up – production
+##### Setting up – production
 
 I'm using Heroku's basic plan for this. [This](https://devcenter.heroku.com/articles/heroku-postgresql) page from the Heroku docs was quite useful.
 
