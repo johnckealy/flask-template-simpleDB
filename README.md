@@ -1,8 +1,8 @@
 # Flask-api-Heroku
 
-A flask template for creating a heroku RESTful API.
+A flask template for creating a simple heroku app that includes connection to a database. 
 
-This is a template for creating an API in flask, a reference starting point that has the ability to connect to a PostgreSQL database in both development and production.
+This is a template for creating an API in flask, a reference starting point that has the ability to connect to a PostgreSQL database in both development and production. It's very simple, no error handling or migrations, the bare minimum.
 
 
 ## Usage
