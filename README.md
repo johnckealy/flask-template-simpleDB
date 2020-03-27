@@ -5,12 +5,12 @@ A flask template for creating a heroku RESTful API.
 This is a template for creating an API in flask, a reference starting point that has the ability to connect to a PostgreSQL database in both development and production.
 
 
-##### Usage
+## Usage
 
 This is a basic skeleton, not even a crud app, for getting PostgreSQL database to work on both a dev and prod environment. Click the link to add an email to the database from a random sample of four emails.
 
 
-##### Setting up – development
+## Setting up – development
 
 On your local server, you'll need to create the database and a virtual environment. For the venv, the key thing is to add everything you'll use into a requirements.txt file, so that heroku can create one by itself. You can then .gitignore the venv folder after you create it.
 
@@ -52,7 +52,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> exit()
 ```
 
-##### Setting up – production
+### Setting up – production
 
 I'm using Heroku's basic plan for this. [This](https://devcenter.heroku.com/articles/heroku-postgresql) page from the Heroku docs was quite useful.
 
