@@ -65,7 +65,7 @@ $ heroku addons:create heroku-postgresql:hobby-dev
 $
 $ git push heroku master
 $
-$ heroku run python                                                                     130 master!
+$ heroku run python                                                                     
 Running python on ⬢ my-app... up, run.3634 (Free)
 Python 3.6.10 (default, Dec 23 2019, 04:30:25)
 [GCC 7.4.0] on linux
